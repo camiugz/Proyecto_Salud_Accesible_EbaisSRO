@@ -6,6 +6,10 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="./js/jquery-3.7.1.js"></script>
     <script src="./js/bootstrap.bundle.min.js"></script>
+<<<<<<< Updated upstream
+=======
+    <link rel="stylesheet" href="/css/styles.css">
+>>>>>>> Stashed changes
 
 </body>
 </html>

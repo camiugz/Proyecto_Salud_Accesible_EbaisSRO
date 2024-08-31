@@ -12,6 +12,7 @@ CREATE TABLE usuarios (
     tipo_usuario ENUM('paciente', 'medico') NOT NULL
 );
 
+<<<<<<< Updated upstream
 CREATE TABLE mensajes (
     id INT AUTO_INCREMENT PRIMARY KEY,
     emisor_id INT NOT NULL,
@@ -22,6 +23,8 @@ CREATE TABLE mensajes (
     FOREIGN KEY (receptor_id) REFERENCES usuarios(id)
 );
 
+=======
+>>>>>>> Stashed changes
 CREATE TABLE datos_salud (
     id INT AUTO_INCREMENT PRIMARY KEY,
     paciente_id INT NOT NULL,

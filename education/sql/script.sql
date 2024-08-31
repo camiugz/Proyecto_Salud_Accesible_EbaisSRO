@@ -1,0 +1,14 @@
+CREATE TABLE documentos (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(255) NOT NULL,
+    ruta_pdf VARCHAR(255) NOT NULL,
+    descripcion TEXT
+);
+
+CREATE TABLE solicitudes (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(255) NOT NULL,
+    cedula VARCHAR(50) NOT NULL,
+    documento TEXT NOT NULL,
+    fecha TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);

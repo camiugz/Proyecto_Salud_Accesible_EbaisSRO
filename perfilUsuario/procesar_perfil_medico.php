@@ -1,5 +1,9 @@
 <?php
+<<<<<<< Updated upstream
 include("includes/db.php");
+=======
+include("../includes/db.php");
+>>>>>>> Stashed changes
 
 $nombre = $_POST['nombre'];
 $apellidos = $_POST['apellidos'];

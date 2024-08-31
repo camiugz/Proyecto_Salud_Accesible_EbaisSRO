@@ -1,5 +1,9 @@
 <?php
+<<<<<<< Updated upstream
 include("includes/db.php");
+=======
+include("../includes/db.php");
+>>>>>>> Stashed changes
 
 $id = $_GET['id'];
 

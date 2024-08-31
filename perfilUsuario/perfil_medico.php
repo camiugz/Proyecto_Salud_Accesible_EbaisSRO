@@ -1,6 +1,10 @@
 <?php
 $pageTitle = "Perfil de Médico";
+<<<<<<< Updated upstream
 include("includes/header.php");
+=======
+include("../includes/header.php");
+>>>>>>> Stashed changes
 
 // Verificar si el usuario está logueado como médico
 if (!isset($_SESSION['usuario']) || $_SESSION['tipo_usuario'] != 'medico') {
@@ -27,5 +31,9 @@ if (!isset($_SESSION['usuario']) || $_SESSION['tipo_usuario'] != 'medico') {
 </div>
 
 <?php
+<<<<<<< Updated upstream
 include("includes/footer.php");
+=======
+include("../includes/footer.php");
+>>>>>>> Stashed changes
 ?>

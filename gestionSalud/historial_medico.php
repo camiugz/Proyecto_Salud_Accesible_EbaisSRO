@@ -1,6 +1,10 @@
 <?php
 $pageTitle = "Historial Médico";
+<<<<<<< Updated upstream
 include("includes/header.php");
+=======
+include("../includes/header.php");
+>>>>>>> Stashed changes
 
 // Verificar si el usuario está logueado como paciente
 if (!isset($_SESSION['usuario']) || $_SESSION['tipo_usuario'] != 'paciente') {
@@ -39,5 +43,9 @@ $result = $conn->query($sql);
 </div>
 
 <?php
+<<<<<<< Updated upstream
 include("includes/footer.php");
+=======
+include("../includes/footer.php");
+>>>>>>> Stashed changes
 ?>
